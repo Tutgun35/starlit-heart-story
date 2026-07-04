@@ -14,8 +14,11 @@ function diff(target: Date) {
 
 export function LoveCounter() {
   const target = new Date(siteData.startDate);
-  const [t, setT] = useState(() => diff(target));
+  const [t, setT] = useState({ y: 0, mo: 0, d: 0, h: 0, mi: 0, s: 0 });
+  const [mounted, setMounted] = useState(false);
   useEffect(() => {
+    setMounted(true);
+    setT(diff(target));
     const id = setInterval(() => setT(diff(target)), 1000);
     return () => clearInterval(id);
     // eslint-disable-next-line react-hooks/exhaustive-deps
