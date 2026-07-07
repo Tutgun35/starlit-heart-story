@@ -94,6 +94,7 @@
   box-shadow: 0 20px 60px rgba(168, 85, 247, 0.25);
 }
 
+
 /* ---- Gradients ---- */
 @utility text-gradient {
   background: linear-gradient(135deg, #f5d0fe 0%, #e9d5ff 40%, #f9a8d4 100%);
