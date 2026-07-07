@@ -9,10 +9,10 @@ import { MusicPlayer } from "@/components/music-player";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Bizim Hikâyemiz 💜" },
-      { name: "description", content: "Sadece sana özel, sinematik bir aşk hikâyesi." },
+      { title: "Seni seviyorum 💜" },
+      { name: "description", content: "11 Ocak 2026" },
       { property: "og:title", content: "Bizim Hikâyemiz 💜" },
-      { property: "og:description", content: "Sadece sana özel, sinematik bir aşk hikâyesi." },
+      { property: "og:description", content: "Her satırı bize, her anısı sana ait bir hikâye." },
     ],
   }),
   component: HomePage,

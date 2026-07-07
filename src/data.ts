@@ -73,7 +73,7 @@ Seni seviyorum.
     artist: "Don Toliver ft. Kali Uchis",
     // MP3 dosyanı public/ klasörüne koy ve buraya yolunu yaz. Örn: "/our-song.mp3"
     src: "/song.mp3.mp3",
-    cover: "/public/müzikpp.png",
+    cover: "/müzikpp.png",
   },
 
   // ---------- GELECEK HAYALLERİMİZ ----------
