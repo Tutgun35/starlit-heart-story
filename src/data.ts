@@ -26,12 +26,12 @@ export const siteData = {
   // ---------- FOTOĞRAF GALERİSİ ----------
   // Yeni fotoğraf eklemek için sadece bu diziye yeni bir { src, caption } ekle.
   gallery: [
-    { src: "/public/resim2.png", caption: "Seni çocukluğumdan beri tanıyorum." },
-    { src: "/public/resim5.jpeg", caption: "İlk fotoğrafımız" },
-    { src: "/public/resim 4.jpg", caption: "Gotham city" },
-    { src: "/public/resim 6.png", caption: "Ekitike" },
-    { src: "/public/resim1.jpg", caption: "Oyunları unutmak olmaz (resme tıkla)" } ,
-    { src: "/public/resim3.png", caption: "Birlikte" },
+    { src: "/resim2.png", caption: "Seni çocukluğumdan beri tanıyorum." },
+    { src: "/resim5.jpeg", caption: "İlk fotoğrafımız" },
+    { src: "/resim 4.jpg", caption: "Gotham city" },
+    { src: "/resim 6.png", caption: "Ekitike" },
+    { src: "/resim1.jpg", caption: "Oyunları unutmak olmaz (resme tıkla)" } ,
+    { src: "/resim3.png", caption: "Birlikte" },
   ],
 
   // ---------- ANILARIMIZ (ZAMAN TÜNELİ) ----------
