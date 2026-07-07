@@ -7,40 +7,40 @@
 export const siteData = {
   // ---------- İSİMLER ----------
   names: {
-    her: "Aşkım",        // Kız arkadaşının adı
-    me: "Ben",           // Senin adın
-    couple: "Biz",       // Site başlığında
+    her: "Tuğba",        // Kız arkadaşının adı
+    me: "Tutkun",           // Senin adın
+    couple: "Tuğba 💜 Tutkun",       // Site başlığında
   },
 
   // ---------- BAŞLANGIÇ TARİHİ ----------
   // Birlikte olduğunuz tarih (YYYY-MM-DDTHH:mm:ss)
-  startDate: "2023-02-14T20:00:00",
+  startDate: "2025-12-01T00:00:00",
 
   // ---------- ANA SAYFA ----------
   hero: {
-    line1: "Her aşk hikayesi güzeldir.",
-    line2: "Ama benim en sevdiğim bizim hikâyemiz.",
-    button: "Hikâyemizi Keşfet",
+    line1: "Hoşgeldin bebeğim.",
+    line2: "Bugün, birlikte bir kez daha en güzel anılarımıza döneceğiz.",
+    button: "Başlayalım",
   },
 
   // ---------- FOTOĞRAF GALERİSİ ----------
   // Yeni fotoğraf eklemek için sadece bu diziye yeni bir { src, caption } ekle.
   gallery: [
-    { src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1200", caption: "İlk günümüz" },
-    { src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=1200", caption: "Sahilde el ele" },
-    { src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1200", caption: "Gülüşün" },
-    { src: "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=1200", caption: "O akşam" },
-    { src: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=1200", caption: "Kahve molası" },
+    { src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1200", caption: "Seni çocukluğumdan beri tanıyorum." },
+    { src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=1200", caption: "İlk fotoğrafımız" },
+    { src: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=1200", caption: "Gotham city" },
+    { src: "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=1200", caption: "Ekitike" },
+    { src: "https://images.unsplash.com/photo-1494774157365-9e04c6720e47?w=1200", caption: "Oyunları unutmak olmaz" },
     { src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200", caption: "Birlikte" },
   ],
 
   // ---------- ANILARIMIZ (ZAMAN TÜNELİ) ----------
   timeline: [
-    { date: "14 Şubat 2023", title: "İlk Tanışma",  text: "Gözlerin bana bakınca kalbim durdu." },
-    { date: "15 Şubat 2023", title: "İlk Mesaj",    text: "O ilk 'selam' her şeyin başlangıcıydı." },
-    { date: "20 Şubat 2023", title: "İlk Buluşma",  text: "Kalbim yerinden fırlayacaktı." },
+    { date: "14 Şubat 2023", title: "Yıl Dönümümüz",  text: "Yeniden doğduğum gün." },
+    { date: "15 Şubat 2023", title: "İlk Mesaj",    text: "O minik parmaklarınla yazdığın ilk mesaj." },
+    { date: "20 Şubat 2023", title: "İlk Buluşma",  text: "Güzel gözlerine canlı,canlı baktığım ilk gün." },
     { date: "01 Mart 2023",  title: "İlk Fotoğraf", text: "İlk kez birlikte kadraja girdik." },
-    { date: "10 Temmuz 2023",title: "İlk Tatil",    text: "Deniz kenarında el ele, sonsuza dek." },
+    { date: "10 Temmuz 2023",title: "İlk Hediye",    text: "Bizim için her zaman anlamlı olacak." },
     { date: "Bugün",         title: "Bugün",        text: "Ve her gün seni biraz daha çok seviyorum." },
   ],
 
@@ -70,8 +70,8 @@ Sonsuza dek seninim.`,
 
   // ---------- ŞARKIMIZ ----------
   song: {
-    title: "Bizim Şarkımız",
-    artist: "Sadece Bize Ait",
+    title: "Drugs N Hella Melodies",
+    artist: "Don Toliver ft. Kali Uchis",
     // MP3 dosyanı public/ klasörüne koy ve buraya yolunu yaz. Örn: "/our-song.mp3"
     src: "https://cdn.pixabay.com/audio/2022/10/25/audio_2c9b1c6a1f.mp3",
     cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600",
@@ -104,8 +104,8 @@ ve en güzel 'iyi ki'msin. 💜`,
   final: {
     line1: "Seni bugün de...",
     line2: "Yarın da...",
-    line3: "Her zaman seçeceğim.",
-    hint: "Kalbe dokun 💜",
+    line3: "Her zaman seveceğim.",
+    hint: "Güzeller güzeli sevgilim 💜",
   },
 };
 
